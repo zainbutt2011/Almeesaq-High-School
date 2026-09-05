@@ -135,3 +135,13 @@ linear-gradient(145deg,#3a174e,#75419a 52%,#b99bca);position:relative;overflow:h
 @media(max-width:1100px){.main-nav{gap:11px}.main-nav a{font-size:11px}.academic-grid,.achievement-grid{grid-template-columns:repeat(2,1fr)}.facility-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){.top-strip-inner{justify-content:center;gap:14px}.site-header{top:31px}.menu-toggle{display:block}.main-nav{position:absolute;left:20px;right:20px;top:72px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);display:none;flex-direction:column;align-items:stretch;padding:10px}.main-nav.open{display:flex}.main-nav a:not(.nav-cta){padding:10px}.main-nav a:not(.nav-cta):after{display:none}.nav-cta{text-align:center;margin-top:5px}.two-col,.admissions-wrap,.faculty-wrap,.contact-grid{grid-template-columns:1fr;gap:45px}.stats-grid{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border:0}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:180px 180px 180px}.gallery-a{grid-row:span 2}.footer-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.container{width:min(100% - 28px,1180px)}.top-strip{display:none}.site-header{top:0}.nav-wrap{min-height:70px}.brand img{width:45px;height:45px}.brand-text strong{font-size:14px}.hero{min-height:700px}.hero-content{padding-top:70px}.hero h1{font-size:50px}.hero-tagline{font-size:17px}.hero-trust{gap:13px;margin-top:40px}.hero-trust span{font-size:10px}.section-pad{padding:75px 0}.two-col,.admissions-wrap,.faculty-wrap,.contact-grid{gap:35px}.academic-grid,.facility-grid,.achievement-grid,.news-grid,.form-grid{grid-template-columns:1fr}.form-grid label.full{grid-column:auto}.visual-frame{height:390px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:150px 150px 150px}.gallery-a{grid-row:span 2}.result-feature{flex-direction:column;align-items:flex-start}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:8px}.scroll-cue{display:none}}
+.hero-person {
+  position: absolute;
+  right: 4%;
+  bottom: 0;
+  height: 88%;
+  width: auto;
+  object-fit: contain;
+  z-index: 2;
+  pointer-events: none;
+}
